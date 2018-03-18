@@ -7,6 +7,8 @@ sudo apt-get install shadowsocks-qt5
 sudo pip3 install genpac
 pip3 install --upgrade genpac
 
+## to run this command, you need to eable shadowsocks-qt5 at first.
+## Otherwise will "fetch gfwlist failed" reported
 genpac --pac-proxy "SOCKS5 127.0.0.1:1080" --gfwlist-proxy="SOCKS5 127.0.0.1:1080" --gfwlist-url=https://raw.githubusercontent.com/gfwlist/gfwlist/master/gfwlist.txt --output="autoproxy.pac"
 ## reference: https://www.litcc.com/2016/12/29/Ubuntu16-shadowsocks-pac/
 
@@ -29,4 +31,10 @@ sudo apt-get install cmake
 
 #vim
 sudo apt-get install vim
+
+# teamviewer
+
+# vscode
+
+
 
