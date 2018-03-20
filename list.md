@@ -91,7 +91,9 @@ then download the CDT for ``juno``.
 
 eclipse - help - install new software
 
-
+# chrome extensions
+1. dark reader
+2. Theme: Into The Mist
 
 
 
