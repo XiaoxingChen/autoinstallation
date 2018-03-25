@@ -48,6 +48,7 @@ sudo apt-get install cmake
 ```
 sudo apt-get install vim
 ```
+wget https://www.vim.org/scripts/download_script.php?src_id=3640
 
 # teamviewer
 
@@ -90,6 +91,9 @@ For example, eclipse installed by apt-get is 3.8.1, name ``juno`` ,
 then download the CDT for ``juno``.
 
 eclipse - help - install new software
+
+# firefox
+add-ons: dark-fox
 
 
 
