@@ -92,16 +92,13 @@ then download the CDT for ``juno``.
 
 eclipse - help - install new software
 
-<<<<<<< HEAD
-# firefox
-add-ons: dark-fox
+# explorer extensions
+## firefox
+- add-ons: dark-fox
 
-
-=======
-# chrome extensions
+## chrome extensions
 1. dark reader
 2. Theme: Into The Mist
->>>>>>> 26eac1f68ee407ed1c69564de49117beb16bb3f3
 
 
 
