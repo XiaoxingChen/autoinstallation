@@ -1,11 +1,12 @@
-# shadowsocks-qt5
+# Crossing The Wall
+## shadowsocks-qt5
 ```
 sudo add-apt-repository ppa:hzwhuang/ss-qt5
 sudo apt-get update
 sudo apt-get install shadowsocks-qt5
 ```
 
-# genPAC
+## genPAC
 ```
 sudo pip3 install genpac
 pip3 install --upgrade genpac
@@ -21,7 +22,7 @@ genpac --pac-proxy "SOCKS5 127.0.0.1:1080" --gfwlist-proxy="SOCKS5 127.0.0.1:108
 # python
 ```
 sudo apt-get install python3-pip
-sudo pip3 install --upgrade pip3
+sudo pip3 install --upgrade pip
 sudo pip3 install matplotlib
 sudo pip3 install networkx
 sudo apt-get install python3-tk
@@ -100,5 +101,14 @@ eclipse - help - install new software
 1. dark reader
 2. Theme: Into The Mist
 
+# Wireshark
+```
+sudo add-apt-repository ppa:wireshark-dev/stable
+sudo apt-get update
+sudo apt-get install wireshark
+```
+
+# doxygen
+install from github
 
 
