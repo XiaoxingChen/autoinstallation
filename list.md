@@ -52,8 +52,15 @@ sudo apt-get install vim
 wget https://www.vim.org/scripts/download_script.php?src_id=3640
 
 # teamviewer
+just download *.deb from  official website.
 
 # vscode
+just download *.deb from microsoft official website.
+## extensions
+- Markdown + Math
+- CMake
+- Python
+- C/C++
 
 # jdk
 1. download from orcale
@@ -111,4 +118,13 @@ sudo apt-get install wireshark
 # doxygen
 install from github
 
+# Shortcuts
+`system setting` - `keyboard` - `Shortcuts` - `Custom Shortcuts`
 
+1. gnome-system-monitor  
+Add a new one,   
+name: taskmanager,   
+command: gnome-system-monitor,   
+key: `Ctrl + Alt + Del`
+
+2. [disable touchpad while typing](disable_touchpad_while_typing_dell.md)
