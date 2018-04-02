@@ -1,11 +1,12 @@
-# shadowsocks-qt5
+# Crossing The Wall
+## shadowsocks-qt5
 ```
 sudo add-apt-repository ppa:hzwhuang/ss-qt5
 sudo apt-get update
 sudo apt-get install shadowsocks-qt5
 ```
 
-# genPAC
+## genPAC
 ```
 sudo pip3 install genpac
 pip3 install --upgrade genpac
@@ -21,7 +22,7 @@ genpac --pac-proxy "SOCKS5 127.0.0.1:1080" --gfwlist-proxy="SOCKS5 127.0.0.1:108
 # python
 ```
 sudo apt-get install python3-pip
-sudo pip3 install --upgrade pip3
+sudo pip3 install --upgrade pip
 sudo pip3 install matplotlib
 sudo pip3 install networkx
 sudo apt-get install python3-tk
@@ -51,8 +52,15 @@ sudo apt-get install vim
 wget https://www.vim.org/scripts/download_script.php?src_id=3640
 
 # teamviewer
+just download *.deb from  official website.
 
 # vscode
+just download *.deb from microsoft official website.
+## extensions
+- Markdown + Math
+- CMake
+- Python
+- C/C++
 
 # jdk
 1. download from orcale
@@ -100,29 +108,23 @@ eclipse - help - install new software
 1. dark reader
 2. Theme: Into The Mist
 
-# add user
+# Wireshark
+```
+sudo add-apt-repository ppa:wireshark-dev/stable
+sudo apt-get update
+sudo apt-get install wireshark
+```
 
-- optional:
-If the password of root should be set at first.
-```
-sudo passwd root
-```
-Add user:
-```
-sudo adduser chenxx
-```
-Add sudo privilage:
-```
-sudo vim /etc/sudoers
-```
-add the following string to the file:
-```
-# User privilege specification
-root ALL=(ALL) ALL
-chenxx ALL=(ALL) ALL
-```
-done!
+# doxygen
+install from github
 
+# Shortcuts
+`system setting` - `keyboard` - `Shortcuts` - `Custom Shortcuts`
 
+1. gnome-system-monitor  
+Add a new one,   
+name: taskmanager,   
+command: gnome-system-monitor,   
+key: `Ctrl + Alt + Del`
 
-
+2. [disable touchpad while typing](disable_touchpad_while_typing_dell.md)
