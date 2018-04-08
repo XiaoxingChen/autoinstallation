@@ -1,9 +1,12 @@
 # Crossing The Wall
-## shadowsocks-qt5
+## shadowsocks
 ```
-sudo add-apt-repository ppa:hzwhuang/ss-qt5
-sudo apt-get update
-sudo apt-get install shadowsocks-qt5
+git clone http://github.com/shadowsocks/shadowsocks
+python3 setup.py install
+```
+Then add the follow command to /etc/rc.local to run at startup
+```
+sslocal -c /path/to/configfile.json
 ```
 
 ## genPAC
