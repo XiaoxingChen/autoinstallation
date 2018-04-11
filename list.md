@@ -61,6 +61,7 @@ just download *.deb from microsoft official website.
 - CMake
 - Python
 - C/C++
+- live server
 
 # jdk
 1. download from orcale
