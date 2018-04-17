@@ -35,9 +35,11 @@ sudo apt-get install python3-tk
 ```
 sudo add-apt-repository ppa:fcitx-team/nightly
 sudo apt-get install fcitx-config-gtk fcitx-googlepinyin fcitx-module-cloudpinyin fcitx-table-all
-sudo apt remove fcitx-module-kimpanel
+#sudo apt remove fcitx-module-kimpanel
 ```
-
+"System settings"-"Language Support"-"Keyboard input method system" change to "fcitx"
+Then reboot computer.
+[Reference](http://ubuntuhandbook.org/index.php/2016/07/2-best-chinese-pinyin-im-ubuntu-16-04/)
 # git
 ```
 sudo apt-get install git
