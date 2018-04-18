@@ -134,3 +134,10 @@ command: gnome-system-monitor,
 key: `Ctrl + Alt + Del`
 
 2. [disable touchpad while typing](disable_touchpad_while_typing_dell.md)
+
+# octave
+```
+sudo apt-add-repository ppa:octave/stable
+sudo apt-get update
+sudo apt-get install octave
+```
